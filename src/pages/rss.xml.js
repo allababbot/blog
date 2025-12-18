@@ -1,8 +1,8 @@
-import rss, {pagesGlobToRssItems} from '@astrojs/rss';
+import rss, { pagesGlobToRssItems } from '@astrojs/rss';
 
 export async function GET(context) {
   return rss({
-    title: 'nicdun.dev - blog',
+    title: 'arisman - blog',
     description: 'Crafting the Digital Future with Web Development Wonders',
     site: context.site,
     items: await pagesGlobToRssItems(
