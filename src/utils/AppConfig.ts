@@ -1,8 +1,8 @@
 export const AppConfig = {
-	site_name: 'AstroPress',
-	title: 'AstroPress | Astro and Tailwind CSS',
-	description: 'Boilerplate built with Astro and Tailwind CSS',
-	author: 'Nicolas',
-	locale_region: 'de-en',
+	site_name: 'My Blog',
+	title: 'My Blog | Personal Website',
+	description: 'A personal blog built with Astro and Tailwind CSS',
+	author: 'Admin',
+	locale_region: 'en-US',
 	locale: 'en'
 };
